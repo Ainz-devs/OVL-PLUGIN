@@ -18,6 +18,12 @@ pgi https://gist.githubusercontent.com/username/abcd1234/raw/mon_plugin.js
 
 ## ⚡ Créer vos propres plugins
 
+Pour créer votre plugin :
+
+1. Écrivez le code de votre plugin en suivant la structure ci-dessous.
+2. Uploadez-le sur [**Gist**](https://gist.github.com) pour obtenir un lien direct raw.
+3. Récupérez le **lien direct raw** de votre fichier.
+
 ```javascript
 const { ovlcmd } = require('../lib/ovlcmd');
 
@@ -68,5 +74,5 @@ Pour ajouter votre plugin dans la liste officielle **OVL-PLUGIN** :
 
    * **nom** : nom du plugin
    * **description** : description du plugin
-   * **url** : lien direct vers le fichier raw du plugin (gist)
+   * **url** : lien direct vers le fichier raw du plugin ([Gist](https://gist.github.com))
    * **auteur** : nom de l'auteur du plugin
