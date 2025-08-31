@@ -11,7 +11,7 @@ Installez un plugin via une URL publique avec la commande :
 ### Exemple :
 
 ```bash
-pgi https://gist.githubusercontent.com/username/abcd1234/raw/mon_plugin.js
+pgi https://gist.github.com/Ainz-devs/dad4ca8d69a6944b2fddd96ff8117244/raw/5d2bdcde5e617bbaf4f9075306af9aea891cfa0d/filters.js
 ```
 
 ---
@@ -29,7 +29,7 @@ const { ovlcmd } = require('../lib/ovlcmd');
 
 ovlcmd(
   {
-    nom_cmd: "",       // Nom de la commande (ex: 'delete')
+    nom_cmd: "",       // Nom de la commande (ex: 'test')
     alias: [],           // Alias de la commande (optionnel)
     react: "",          // Emoji de réaction (optionnel)
     classe: "",        // Catégorie du plugin (ex: Owner, Outils, Fun, Convert)
